@@ -23,9 +23,18 @@ a {
     font-size: 10px;
 }
 
-.logo {
+
+/* DISPLAY NONE  */
+.logo,
+.tasti-navigation,
+.playlist,
+.download,
+.profile,
+hr {
     display: none;
 }
+
+
 
 /* CLASSI  */
 .pad {
@@ -37,7 +46,7 @@ a {
 
 
 
-/* CLASSI  */
+
 
 
 
