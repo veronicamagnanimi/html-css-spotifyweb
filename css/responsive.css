@@ -24,6 +24,15 @@
     .col1 {
         width: calc(100% / 4);
     }
+
+    .row2,
+    .row3 {
+        max-width: 50%;
+    }
+
+    .final-icon {
+        flex-direction: row;
+    }
 }
 
 

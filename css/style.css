@@ -62,10 +62,13 @@ span,
 
 /* HOVER  */
 a:hover,
-span:hover,
-.nome:hover {
+span:hover {
     color: white;
     cursor: pointer
+}
+
+.final-icon:hover {
+    color: white
 }
 
 
@@ -206,6 +209,9 @@ p {
     padding: 0 5px;
 }
 
+.bd50 {
+    border-radius: 50%;
+}
 
 
 /* FINE CONTENT  */
@@ -217,4 +223,35 @@ p {
   height: 4.4rem;
   background-color: rgb(40, 40, 40);
 }
+
+h4 {
+    color: rgb(255, 255, 255);
+}
+
+.fot-img {
+    width: 10%;
+}
+
+.decorations {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fot1 {
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sinister {
+    padding-left: 5px;
+    font-size: 10px;
+}
+
+.final-icon {
+    color: var(--grey);
+    display: flex;
+    flex-direction: column;
+    }
 
