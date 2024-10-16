@@ -1,0 +1,22 @@
+@media screen and (min-width: 639px) {
+    .navigation {
+        width: 10rem;
+    }
+
+    .tasti-navigation,
+    .logo,
+    .playlist,
+.download,
+.profile,
+.plus {
+        display: inline;
+    }
+
+    .logo-small {
+        display: none;
+    }
+
+    .icon {
+        max-width: 30%;
+    }
+}
