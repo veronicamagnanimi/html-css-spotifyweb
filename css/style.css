@@ -1,3 +1,8 @@
+:root {
+    --grey: #b8b7b7;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +17,10 @@ img {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+ul {
+list-style: none;
 }
 
 .button {
@@ -34,10 +43,15 @@ a {
 
 /* DISPLAY NONE  */
 .large-logo,
-span {
+span,
+.playlist {
     display: none;
 }
 
+.large-logo {
+    height: 40px;
+        padding: 5px;
+}
 
 
 /* CLASSI  */
@@ -94,23 +108,75 @@ span {
     padding-right: 5px;
 }
 
+.playlist {
+    padding: 10px 5px;
+}
 
-
+h2 {
+    font-size: 15px;
+    padding: 5px 0;
+}
 
 /* FINE NAVIGATION  */
 
 
+
 /* CONTENT  */
 .content {
-    display: flex;
-    justify-content: center;
     width: 100%;
+    padding: 10px;
 }
 
 .main {
     width: calc(100% - 2rem );
     background-color: rgb(95, 94, 95);
     overflow: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 10px;
+    color: var(--grey);
+
+}
+
+.lista-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.lista-nav a {
+    padding: 5px;
+    
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col1 {
+    width: calc(100% / 2);
+    padding: 20px;
+    /* debug  */
+    border: 1px solid black;
+}
+
+.col2 {
+    padding: 20px;
+    /* debug  */
+    border: 1px solid black;
+}
+
+.col3 {
+  padding: 20px;
+  /* debug  */
+  border: 1px solid black;
 }
 
 /* FINE CONTENT  */
