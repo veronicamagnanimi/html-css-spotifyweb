@@ -3,6 +3,14 @@
         width: 200px;
     }
 
+    .header {
+        width: calc(100% - 200px);
+    }
+
+    .main {
+        width: calc(100% - 200px);
+    }
+
     
     
     .large-logo,
@@ -33,7 +41,13 @@
     .final-icon {
         flex-direction: row;
     }
+
+    .navbar {
+        font-size: 15px;
+    }
 }
+
+
 
 
 /* LARGEXXXXXXXXXXXXXXXXXXXXXXXXXXX */
