@@ -11,8 +11,11 @@
         width: calc(100% - 200px);
     }
 
-    
-    
+    .fot-img {
+        height: 30px;
+        width: 30px;
+    }
+
     .large-logo,
     span,
     .playlist {
@@ -21,6 +24,10 @@
 
     .small-logo {
         display: none;
+    }
+
+    .yellow::before {
+        display: inline;
     }
 }
 
@@ -40,6 +47,8 @@
 
     .final-icon {
         flex-direction: row;
+        gap: 20px;
+        padding-left: 50px;
     }
 
     .navbar {

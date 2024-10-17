@@ -22,12 +22,13 @@ a {
 
 ul {
 list-style: none;
+
 }
 
 .button {
     display: inline;
     color: white;
-    padding: 10px;
+    padding: 5px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 20px;
     margin: 0.5rem 0.3rem 0.6rem 0;
@@ -40,11 +41,11 @@ list-style: none;
     font-size: 20px;
 }
 
-
-
-
-
-
+.yellow::before {
+    content: "";
+    border-left: 3px solid yellowgreen;
+    display: none;
+}
 
 /* DISPLAY NONE  */
 .large-logo,
@@ -70,6 +71,11 @@ a:hover,
 span:hover {
     color: white;
     cursor: pointer
+}
+
+.button:hover {
+    cursor: pointer;
+    font-size: 12px;
 }
 
 
@@ -100,15 +106,6 @@ span:hover {
 .album:hover .foto-2 {
     z-index: 0;
 }
-
-
-
-
-
-
-
-
-
 
 .spotify {
     display: flex;
@@ -252,9 +249,6 @@ p {
     border-radius: 50%;
 }
 
-
-
-
 /* FINE CONTENT  */
 
 
@@ -265,18 +259,21 @@ p {
   background-color: rgb(40, 40, 40);
 }
 
-/* h4 {
+
+h4 {
     color: rgb(255, 255, 255);
 }
 
 .fot-img {
-    width: 10%;
+    height: 20px;
+    width: 20px;
 }
 
-.row4 {
+.decorations {
     display: flex;
     justify-content: space-between;
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
+    padding: 0 10px;
 }
 
 .fot1 {
@@ -295,53 +292,28 @@ p {
     color: var(--grey);
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    margin-left: 15px;
+    padding-left: 15px;
+    gap: 2px;
+    font-size: 15px;
     }
 
 .fot2 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 5px;
-}    
-
-.top {
-    display: flex;
-    gap: 10px;
+    justify-content: center;
+    padding-right: 10px;
 }
 
-.bottom {
-    margin-top: 5px;
+.sound {
+    display: flex;
+    gap: 20px;
 }
 
 .fot3 {
-    padding: 15px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
-    align-items: center;
-    font-size: 10px;
 }
 
-
-.colfot1 {
-    width: 30%;
-    background-color: rgb(131, 7, 239);
-}
-
-.colfot2 {
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(8, 81, 218);
-}
-
-.colfot3 {
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(23, 23, 23);
-} */
