@@ -47,6 +47,10 @@ list-style: none;
     display: none;
 }
 
+.hr {
+    margin: 10px;
+}
+
 /* DISPLAY NONE  */
 .large-logo,
 span,
@@ -76,6 +80,16 @@ span:hover {
 .button:hover {
     cursor: pointer;
     font-size: 12px;
+}
+
+.footer-icon:hover {
+    height: 10px;
+}
+
+.icon-footer:hover {
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
 }
 
 
@@ -315,5 +329,19 @@ h4 {
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.second {
+    gap: 5px;
+    padding-top: 5px;
+    width: 100px;
+    display: flex;
+}
+
+.col-2 {
+    background-color: white;
+    height: 2px;
+    width: 500px;
+    margin-top: 10px;
 }
 

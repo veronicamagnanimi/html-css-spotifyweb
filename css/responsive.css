@@ -18,7 +18,8 @@
 
     .large-logo,
     span,
-    .playlist {
+    .playlist,
+    .hr {
         display: inline;
     }
 
